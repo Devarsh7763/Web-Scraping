@@ -39,4 +39,6 @@ data={'question':mcq_qu,'answer':mcq_ans}
 dev=pd.DataFrame(data)
 print(dev.head())
 #df.to_csv('mcq.csv',index=False)
+# here i used seporator as \n ,while scraing the data was normal ,while i was saw in Json file ,it showed like hell i didn't that 
+# so i used sep="\n"
 dev.to_csv(r'E:\devarsh\ask_question.json',sep="\n")
